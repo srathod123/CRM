@@ -1,0 +1,11 @@
+<suite name = "smoke pack">
+    <test name ="OrangeCRMTests" preserve-order="false"> <!--give name whatever you like-->
+        <classes>
+            <class name="com.automation.Tests.LoginTest"> <!--package name of test class and than class name-->
+                <include name="demoTest"/><!--test method name-->
+                <!--For an example: if you don't include-->
+                <!--the function name that it will run all the test method of that particular class-->
+            </class>
+        </classes>
+    </test>
+</suite>

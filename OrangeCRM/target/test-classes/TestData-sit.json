@@ -1,0 +1,9 @@
+{
+  "demoTest": [
+    {
+      "username": "AdminSIT",
+      "password": "admin123",
+      "welcome": "Welcome Paul"
+    }
+  ]
+}

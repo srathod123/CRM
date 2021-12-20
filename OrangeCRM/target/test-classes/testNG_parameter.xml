@@ -1,0 +1,10 @@
+<suite name = "smoke pack">
+    <!-- to get parameter go to the edit configuration -> configuration-> VM option ->-DenvName=uat/sit/stg(-D is going to appended for system property) ->apply -> ok -->
+    <test name ="OrangeCRMTests" preserve-order="false">
+        <classes>
+            <class name="com.automation.Tests.LoginTest">
+                <include name="demoTest"/>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,12 @@
+<suite name = "smoke pack">
+    <listeners>
+        <!--this line will retry the test case when it fails for once-->
+        <listener class-name="Components.RetryTransformer"/>
+    </listeners>
+    <test name ="OrangeCRMTests" preserve-order="false">
+        <classes>
+            <class name="com.automation.Tests.LoginTest">
+            </class>
+        </classes>
+    </test>
+</suite>

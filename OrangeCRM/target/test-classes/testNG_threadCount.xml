@@ -1,0 +1,11 @@
+<suite name = "smoke pack" thread-count="4" parallel="methods"><!--in this case if test class
+    having multiple methods for example if it has 100s methods at that time 4 methods will run together
+    than other 4 and so on -->
+    <test name ="OrangeCRMTests" preserve-order="false"> <!--give name whatever you like-->
+        <classes>
+            <class name="com.automation.Tests.LoginTest"> <!--package name of test class and than class name-->
+                <include name ="demoTest"/>
+            </class>
+        </classes>
+    </test>
+</suite>

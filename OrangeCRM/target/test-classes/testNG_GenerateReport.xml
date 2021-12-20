@@ -1,0 +1,12 @@
+<suite name = "smoke pack">
+    <listeners>
+        <!--this line will generate the report-->
+        <listener class-name="Components.TestActions"/>
+    </listeners>
+    <test name ="OrangeCRMTests">
+        <classes>
+            <class name="com.automation.Tests.LoginTest">
+            </class>
+        </classes>
+    </test>
+</suite>
